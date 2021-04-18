@@ -7,6 +7,7 @@ import {
   TextField,
   Typography
 } from "@material-ui/core";
+import {Link} from "react-router-dom"
 // import Navbar from '../Landing/components/Navbar'
 import GridContainer from "./GridContainer";
 import GridItem from "./GridItem";
@@ -19,7 +20,6 @@ import PropertyCheckboxes from './PropertyCheckboxes'
 import Image from './Image'
 import Footer from './Footer'
 import Navbar from './Navbar'
-import {Link} from "react-router-dom"
 
 const styles = makeStyles((theme) => ({
   paper: {
@@ -230,7 +230,8 @@ export default function AddLists() {
 <Image/>
 
 
-<Link type="button" to="/pay" className="btn text-center" style={{width:"30%", backgroundColor:"orange", marginLeft:"25rem", padding:"1%", borderRadius:"30px"}}>Submit</Link>
+<Link type="button" to="/pay" className="btn text-center" style={{width:"30%", backgroundColor:"orange",
+ marginLeft:"25rem", padding:"1%", borderRadius:"30px"}}>Submit</Link>
 <hr/>
 
 
