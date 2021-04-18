@@ -85,15 +85,7 @@ export default function Navbar(props) {
                 } to="/contact">Contact Us</Link>
             </li>
 
-            <li className="flex items-center">
-            <Link  className={
-                  (props.transparent
-                    ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
-                    : "text-gray-800 hover:text-gray-600") +
-                  " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                } to="/pay">Payment</Link>
-            </li>
-
+            
             <li className="flex items-center">
             <Link  className={
                   (props.transparent

@@ -19,14 +19,15 @@ import PropertyCheckboxes from './PropertyCheckboxes'
 import Image from './Image'
 import Footer from './Footer'
 import Navbar from './Navbar'
+import {Link} from "react-router-dom"
 
 const styles = makeStyles((theme) => ({
   paper: {
     margin: "30px 0px",
-    marginTop:"3rem",
+    marginTop:"10rem",
     padding: "30px 50px 10px 50px",
     width:"100%",
-    color:"black",
+    color:"blue",
     // opacity:"0.5",
   },
 
@@ -76,35 +77,6 @@ export default function AddLists() {
           fullWidth
         />
       </div>
-      {/* <div>
-        <span>Name of Company </span>
-        <Input style={{ width: 300 }} id="standard-adornment-amount" />
-      </div> */}
-
-      <GridContainer justify="center" alignItems="center">
-        <GridItem xs={7} sm={7} md={7}>
-          <TextField
-            id="standard-textarea"
-            label="email"
-            placeholder="e.g queens@holding.com"
-            multiline
-            fullWidth
-          />
-          {/* <span>email</span>
-          <Input id="standard-adornment-amount" /> */}
-        </GridItem>
-        <GridItem xs={5} sm={5} md={5}>
-          <TextField
-            id="standard-textarea"
-            label="Tel No"
-            placeholder="e.g +9855855"
-            multiline
-            fullWidth
-          />
-          {/* <span>Tel No</span>
-          <Input id="standard-adornment-amount" /> */}
-        </GridItem>
-      </GridContainer>
       <div className={classes.input}>
         <TextField
           id="standard-textarea"
@@ -114,6 +86,76 @@ export default function AddLists() {
           fullWidth
         />
       </div>
+
+      <GridContainer justify="center" alignItems="center">
+        <GridItem xs={4} sm={4} md={4}>
+          <TextField
+            id="standard-textarea"
+            label="Enter Location"
+            placeholder=" "
+            multiline
+            fullWidth
+          />
+          
+       
+        </GridItem>
+        <GridItem xs={4} sm={4} md={4}>
+        <TextField
+            id="standard-textarea"
+            label="Doors & windows"
+            placeholder=" "
+            multiline
+            fullWidth
+          />
+        </GridItem>
+        <GridItem xs={4} sm={4} md={4}>
+          <TextField
+            id="standard-textarea"
+            label="Number of bathrooms"
+            placeholder=""
+            multiline
+            fullWidth
+          />
+       
+        </GridItem>
+      </GridContainer>
+
+      <GridContainer justify="center" alignItems="center" style={{color:"blue"}}>
+        <GridItem xs={4} sm={4} md={4}>
+          <TextField
+            id="standard-textarea"
+            label="Exterior Construction"
+            placeholder=" "
+            multiline
+            fullWidth
+          />
+          
+       
+        </GridItem>
+        <GridItem xs={4} sm={4} md={4}>
+        <TextField
+            id="standard-textarea"
+            label="Lot size"
+            placeholder=" "
+            multiline
+            fullWidth
+            
+          />
+        </GridItem>
+        <GridItem xs={4} sm={4} md={4}>
+          <TextField
+            id="standard-textarea"
+            label="Nearby Amenities"
+            placeholder=""
+            multiline
+            fullWidth
+          />
+       
+        </GridItem>
+      </GridContainer>
+
+
+     
       <div>
         <GridContainer alignItems="center">
          
@@ -175,12 +217,7 @@ export default function AddLists() {
     </Paper>
     
     <PropertyCheckboxes/>
-{/* 
-    <div className="input-group bg-dark">
-  <span className="input-group-text">First and last name</span>
-  <input type="text" aria-label="First name" className="form-control"/>
-  <input type="text" aria-label="Last name" className="form-control"/>
-</div> */}
+
 
 
 
@@ -188,6 +225,12 @@ export default function AddLists() {
 
 <Image/>
 <Image/>
+<Image/>
+<Image/>
+<Image/>
+
+
+<Link type="button" to="/pay" className="btn text-center" style={{width:"30%", backgroundColor:"orange", marginLeft:"25rem", padding:"1%", borderRadius:"30px"}}>Submit</Link>
 <hr/>
 
 

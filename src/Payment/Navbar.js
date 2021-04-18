@@ -8,17 +8,18 @@ export default function Navbar(props) {
     <nav
       className={
         (props.transparent
-          ? "top-0 absolute z-50 w-full"
-          : "relative shadow-lg bg-white shadow-lg") +
-        " flex flex-wrap items-center justify-between px-2 py-3 "
+          ? "top-0 text-white absolute z-50 w-full"
+          : "relative bg-dark text-white shadow-lg shadow-lg") +
+        " flex flex-wrap bg-dark items-center justify-between px-2 py-3 "
       }
+      style={{backgroundColor:"black", color:"white"}}
     >
-      <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
-        <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+      <div className="text-white px-4 mx-auto flex flex-wrap items-center justify-between">
+        <div className="w-full text-white relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
           <a
             className={
-              (props.transparent ? "text-white" : "text-gray-800") +
-              " text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
+              (props.transparent ? "text-white" : "text-white") +
+              " text-sm font-bold leading-relaxed text-white inline-block mr-4 py-2 whitespace-nowrap uppercase"
             }
             href="/"
           >
@@ -33,7 +34,7 @@ export default function Navbar(props) {
           >
             <i
               className={
-                (props.transparent ? "text-white" : "text-gray-800") +
+                (props.transparent ? "text-white" : "text-white") +
                 " fas fa-bars"
               }
             ></i>
@@ -41,7 +42,7 @@ export default function Navbar(props) {
         </div>
         <div
           className={
-            "lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none" +
+            "lg:flex flex-grow items-center lg:bg-transparent lg:shadow-none" +
             (navbarOpen ? " block rounded shadow-lg" : " hidden")
           }
           id="example-navbar-warning"
@@ -54,24 +55,24 @@ export default function Navbar(props) {
             <li className="flex items-center">
             <Link  className={
                   (props.transparent
-                    ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
-                    : "text-gray-800 hover:text-gray-600") +
+                    ? "lg:text-white lg:hover:text-gray-300 text-white"
+                    : "text-white hover:text-gray-600") +
                   " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 } to="/list_property">List Property</Link>
             </li>
             <li className="flex items-center">
             <Link  className={
                   (props.transparent
-                    ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
-                    : "text-gray-800 hover:text-gray-600") +
+                    ? "lg:text-white lg:hover:text-gray-300 text-white"
+                    : "text-white hover:text-gray-600") +
                   " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 } to="/view_property">View Property</Link>
             </li>
             <li className="flex items-center">
             <Link  className={
                   (props.transparent
-                    ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
-                    : "text-gray-800 hover:text-gray-600") +
+                    ? "lg:text-white lg:hover:text-gray-300 text-white"
+                    : "text-white hover:text-gray-600") +
                   " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 } to="/blog">Blog</Link>
             </li>
@@ -79,32 +80,19 @@ export default function Navbar(props) {
             <li className="flex items-center">
             <Link  className={
                   (props.transparent
-                    ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
-                    : "text-gray-800 hover:text-gray-600") +
+                    ? "lg:text-white lg:hover:text-gray-300 text-white"
+                    : "text-white hover:text-gray-600") +
                   " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 } to="/contact">Contact Us</Link>
             </li>
+         
+        
+
             <li className="flex items-center">
             <Link  className={
                   (props.transparent
-                    ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
-                    : "text-gray-800 hover:text-gray-600") +
-                  " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                } to="/pay">Payment</Link>
-            </li>
-            <li className="flex items-center">
-            <Link  className={
-                  (props.transparent
-                    ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
-                    : "text-gray-800 hover:text-gray-600") +
-                  " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                } to="/pricing">Pricing</Link>
-            </li>
-            <li className="flex items-center">
-            <Link  className={
-                  (props.transparent
-                    ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
-                    : "text-gray-800 hover:text-gray-600") +
+                    ? "lg:text-white lg:hover:text-gray-300 text-white"
+                    : "text-white hover:text-gray-600") +
                   " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 } to="/login">Login</Link>
             </li>
@@ -116,8 +104,8 @@ export default function Navbar(props) {
               <a
                 className={
                   (props.transparent
-                    ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
-                    : "text-gray-800 hover:text-gray-600") +
+                    ? "lg:text-white lg:hover:text-gray-300 text-white"
+                    : "text-white hover:text-gray-600") +
                   " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 }
                 href="#pablo"
@@ -140,8 +128,8 @@ export default function Navbar(props) {
               <Link
                 className={
                   (props.transparent
-                    ? "lg:text-white lg:hover:text-gray-300 text-gray-800"
-                    : "text-gray-800 hover:text-gray-600") +
+                    ? "lg:text-white lg:hover:text-gray-300 text-white"
+                    : "text-white hover:text-gray-600") +
                   " px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                 }
                 href="#pablo"

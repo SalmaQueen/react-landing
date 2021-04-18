@@ -2,25 +2,21 @@ import React, { Component } from 'react';
 import { Helmet } from 'react-helmet';
 import Navbar from '../Landing/components/Navbar'
 import Footer from '../Landing/components/Footer'
-import Mpesa from './Mpesa'
-// import PayementCard from './PayementCard'
+// import Mpesa from './Mpesa'
+import PayementCard from './PayementCard'
 
 
 class PaymentForm extends Component {
   render() {
     return (
-      <div>
-<Navbar/>
+      <>
+<Navbar />
 <h1 className=" text-center" style={{color:"blue", fontSize:"2.5rem"}}>Cart</h1>
         <Helmet>
                 <style type="text/css">{`
                 @import url(https://fonts.googleapis.com/css?family=Lato:400,700);
 
-                body {
-                  background: #F2F2F2;
-                  padding: 0;
-                  maring: 0;
-                }
+              
                 
                 #price {
                   text-align: center;
@@ -177,7 +173,7 @@ class PaymentForm extends Component {
     <div className="plan-inner">
       <div className="entry-title">
         <h3>Basic Wash</h3>
-        <div className="price">$25<span>/PER CAR</span>
+        <div className="price">800<span>Ksh</span>
         </div>
       </div>
       <div className="entry-content">
@@ -189,9 +185,8 @@ class PaymentForm extends Component {
           <li><strong>Unlimited</strong> option 5</li>
         </ul>
       </div>
-      <div className="btn">
-        <a href="#">Buy now</a>
-      </div>
+      <button href="#" style={{width:"30%", backgroundColor:"orange", padding:"1%", borderRadius:"30px"}}>Buy now</button>
+
     </div>
   </div>
   
@@ -214,9 +209,8 @@ class PaymentForm extends Component {
           <li><strong>Unlimited</strong> option 5</li>
         </ul>
       </div>
-      <div className="btn">
-        <a href="#">Buy now</a>
-      </div>
+      <button href="#" style={{width:"30%", backgroundColor:"orange", padding:"1%", borderRadius:"30px"}}>Buy now</button>
+
     </div>
   </div>
   <div className="plan standard">
@@ -235,20 +229,20 @@ class PaymentForm extends Component {
           <li><strong>Free</strong> Wifi</li>
         </ul>
       </div>
-      <div className="btn">
-        <a href="#">Buy now</a>
-      </div>
+    
+        <button href="#" style={{width:"30%", backgroundColor:"orange", padding:"1%", borderRadius:"30px"}}>Buy now</button>
+   
     </div>
   </div>
  
 
 
 </div>
-<Mpesa/>
-{/* <PayementCard/> */}
+{/* <Mpesa/> */}
+<PayementCard/>
 <Footer/>
 
-      </div>
+      </>
     );
   }
 }

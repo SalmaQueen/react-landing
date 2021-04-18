@@ -1,7 +1,6 @@
 import Navbar from '../Landing/components/Navbar';
 import Footer from '../Landing/components/Footer';
 import React, { Component } from 'react';
-import { Helmet } from 'react-helmet';
 
 
 
@@ -14,7 +13,8 @@ class Contact extends Component {
                 <>
 <Navbar  />        
 <div >           
- <section className="relative block py-24  bg-gray-900" style={{paddingTop:"20rem"}}>
+ <section className="relative block py-24  bg-gray-900" 
+ style={{paddingTop:"20rem"}}>
 
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center lg:-mt-64 -mt-48">
