@@ -186,7 +186,9 @@ class Footer extends Component {
                             <i className="fas fa-map-marker-alt"></i>
                             <div className="cta-text">
                                 <h4>Find us</h4>
-                                <span>1010 Avenue, sw 54321, chandigarh</span>
+                                <span>Sliver Park, Block A3 No15</span>
+                                <h5>Eldama Ravine Road</h5>
+                                <span>Westlands, Nairobi, Kenya</span>
                             </div>
                         </div>
                     </div>
@@ -194,8 +196,8 @@ class Footer extends Component {
                         <div className="single-cta">
                             <i className="fas fa-phone"></i>
                             <div className="cta-text">
-                                <h4>Call us</h4>
-                                <span>9876543210 0</span>
+                                <h4>Contact us</h4>
+                                <span>0712345678</span>
                             </div>
                         </div>
                     </div>
@@ -204,7 +206,7 @@ class Footer extends Component {
                             <i className="far fa-envelope-open"></i>
                             <div className="cta-text">
                                 <h4>Mail us</h4>
-                                <span>mail@info.com</span>
+                                <span>info@vacant2rent.com</span>
                             </div>
                         </div>
                     </div>
@@ -216,8 +218,10 @@ class Footer extends Component {
                         <div className="footer-widget">
                            
                             <div className="footer-text">
-                                <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
-                                elit,Lorem ipsum dolor sit amet.</p>
+                              <img width="200px" src={"https://images.pexels.com/photos/2235130/pexels-photo-2235130.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"} alt=""/>
+
+                                {/* <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
+                                elit,Lorem ipsum dolor sit amet.</p> */}
                             </div>
                             <div className="footer-social-icon">
                                 <span>Follow us</span>
@@ -230,19 +234,14 @@ class Footer extends Component {
                     <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
                         <div className="footer-widget">
                             <div className="footer-widget-heading">
-                                <h3>Useful Links</h3>
+                                <h3>Opening hours</h3>
                             </div>
                             <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">about</a></li>
-                                <li><a href="#">services</a></li>
-                                <li><a href="#">portfolio</a></li>
-                                <li><a href="#">Contact</a></li>
-                                <li><a href="#">About us</a></li>
-                                <li><a href="#">Our Services</a></li>
-                                <li><a href="#">Expert Team</a></li>
-                                <li><a href="#">Contact us</a></li>
-                                <li><a href="#">Latest News</a></li>
+                                <li>8am - 5pm</li>
+                                <li>Monday</li>
+                                <li>9am - 1pm</li>
+                                <li>saturday</li>
+                                
                             </ul>
                         </div>
                     </div>

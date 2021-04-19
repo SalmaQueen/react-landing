@@ -20,7 +20,7 @@ export default function Landing() {
             }}>
           <div className="absolute top-0 w-full h-full bg-center bg-cover"
               style={{
-                backgroundColor:"blue", opacity:"0.5",
+                backgroundColor:"blue", opacity:"0.8",
                 backgroundImage: "url('https://images.pexels.com/photos/247676/pexels-photo-247676.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500')"
               }}>
             <span id="blackOverlay" className="w-full h-full absolute opacity-100 " style={{backgroundColor:"blue"}}></span>
@@ -84,8 +84,8 @@ export default function Landing() {
                     </div>
                     <h6 className="text-xl font-semibold">Awarded Agency</h6>
                     <p className="mt-2 mb-4 text-gray-600">
-                      Divide details about your product or agency work into parts. A paragraph describing a feature will be enough.
-                    </p>
+                    Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
+                                elit,Lorem ipsum dolor sit amet.                    </p>
                   </div>
                 </div>
               </div>
@@ -97,11 +97,11 @@ export default function Landing() {
                       <i className="fas fa-retweet"></i>
                     </div>
                     <h6 className="text-xl font-semibold">
-                      Free Revisions
+                      Free Searching of houses
                     </h6>
                     <p className="mt-2 mb-4 text-gray-600">
-                      Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious.
-                    </p>
+                    Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
+                                elit,Lorem ipsum dolor sit amet.                    </p>
                   </div>
                 </div>
               </div>
@@ -113,11 +113,11 @@ export default function Landing() {
                       <i className="fas fa-fingerprint"></i>
                     </div>
                     <h6 className="text-xl font-semibold">
-                      Verified Company
+                      Verified Lister
                     </h6>
                     <p className="mt-2 mb-4 text-gray-600">
-                      Write a few lines about each one. A paragraph describing a feature will be enough. Keep you user engaged!
-                    </p>
+                    Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
+                                elit,Lorem ipsum dolor sit amet.                    </p>
                   </div>
                 </div>
               </div>
@@ -130,25 +130,17 @@ export default function Landing() {
                   <i className="fas fa-user-friends text-xl"></i>
                 </div>
                 <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                  Working with us is a pleasure
+                  About us
                 </h3>
                 <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
-                  Don't let your uses guess by attaching tooltips and popoves
-                  to any element. Just make sure you enable them first via
-                  JavaScript.
+                Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
+                                elit,Lorem ipsum dolor sit amet.
                 </p>
                 <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700">
-                  The kit comes with three pre-built pages to help you get
-                  started faster. You can change the text and images and
-                  you're good to go. Just make sure you enable them first via
-                  JavaScript.
+                Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
+                                elit,Lorem ipsum dolor sit amet.
                 </p>
-                <a
-                  href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
-                  className="font-bold text-gray-800 mt-8"
-                >
-                  Check Tailwind Starter Kit!
-                </a>
+             
               </div>
 
               <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
@@ -158,31 +150,7 @@ export default function Landing() {
                     src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80"
                     className="w-full align-middle rounded-t-lg"
                   />
-                  <blockquote className="relative p-8 mb-4 " style={{backgroundColor:"blue"}}>
-                    <svg
-                      preserveAspectRatio="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 583 95"
-                      className="absolute left-0 w-full block"
-                      style={{
-                        height: "95px",
-                        top: "-94px"
-                      }}
-                    >
-                      <polygon
-                        points="-30,95 583,95 583,65"
-                        className="text-blue-600 fill-current "
-                      ></polygon>
-                    </svg>
-                    <h4 className="text-xl font-bold text-white">
-                      Top Notch Services
-                    </h4>
-                    <p className="text-md font-light mt-2 text-white ">
-                      The Arctic Ocean freezes every winter and much of the
-                      sea-ice then thaws every summer, and that process will
-                      continue whatever happens.
-                    </p>
-                  </blockquote>
+                 
                 </div>
               </div>
 
@@ -226,13 +194,12 @@ export default function Landing() {
                     <i className="fas fa-rocket text-xl"></i>
                   </div>
                   <h3 className="text-3xl font-semibold">
-                    A growing company
+                   Our Services
                   </h3>
                   <p className="mt-4 text-lg leading-relaxed text-gray-600">
-                    The extension comes with three pre-built pages to help you
-                    get started faster. You can change the text and images and
-                    you're good to go.
-                  </p>
+                  Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
+                                elit,Lorem ipsum dolor sit amet.
+                                </p>
                   <ul className="list-none mt-6">
                     <li className="py-2">
                       <div className="flex items-center">
@@ -243,7 +210,7 @@ export default function Landing() {
                         </div>
                         <div>
                           <h4 className="text-gray-600">
-                            Carefully crafted components
+                          Lorem ipsum dolor 
                           </h4>
                         </div>
                       </div>
@@ -256,7 +223,7 @@ export default function Landing() {
                           </span>
                         </div>
                         <div>
-                          <h4 className="text-gray-600">Amazing page examples</h4>
+                          <h4 className="text-gray-600">Amazing apartments</h4>
                         </div>
                       </div>
                     </li>
@@ -268,7 +235,7 @@ export default function Landing() {
                           </span>
                         </div>
                         <div>
-                          <h4 className="text-gray-600">Dynamic components</h4>
+                          <h4 className="text-gray-600">Dynamic houses</h4>
                         </div>
                       </div>
                     </li>
@@ -285,12 +252,11 @@ export default function Landing() {
             <div className="flex flex-wrap justify-center text-center mb-24">
               <div className="w-full lg:w-6/12 px-4">
                 <h2 className="text-4xl font-semibold">
-                  Here are our heroes
+                  Here are our Team
                 </h2>
                 <p className="text-lg leading-relaxed m-4 text-gray-600">
-                  According to the National Oceanic and Atmospheric
-                  Administration, Ted, Scambos, NSIDClead scentist, puts the
-                  potentially record maximum.
+                Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
+                                elit,Lorem ipsum dolor sit amet.
                 </p>
               </div>
             </div>
@@ -493,8 +459,8 @@ export default function Landing() {
                   Excelent Services
                 </h6>
                 <p className="mt-2 mb-4 text-gray-500">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                                 Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
+                                elit,Lorem ipsum dolor sit amet.
                 </p>
               </div>
               <div className="w-full lg:w-3/12 px-4 text-center">
@@ -505,8 +471,8 @@ export default function Landing() {
                   Grow your market
                 </h5>
                 <p className="mt-2 mb-4 text-gray-500">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                                 Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
+                                elit,Lorem ipsum dolor sit amet.
                 </p>
               </div>
               <div className="w-full lg:w-3/12 px-4 text-center">
@@ -517,8 +483,8 @@ export default function Landing() {
                   Launch time
                 </h5>
                 <p className="mt-2 mb-4 text-gray-500">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                                 Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
+                                elit,Lorem ipsum dolor sit amet.
                 </p>
               </div>
             </div>

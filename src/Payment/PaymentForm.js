@@ -239,7 +239,7 @@ class PaymentForm extends Component {
 
 </div>
 {/* <Mpesa/> */}
-<PayementCard/>
+<PayementCard className="mt-5"/>
 <Footer/>
 
       </>
